@@ -15,7 +15,7 @@ const Community = () => {
         className="roadmapBG"
         alt="bg"
       />
-      <div className="relative w-[30%] ml-[35%] lg:ml-[42.5%] mt-10 inline-block lg:w-[15%]">
+      <div className="relative w-[30%] ml-[35%] lg:ml-[35%] xl:ml-[42.5%] mt-10 inline-block lg:w-[30%] xl:w-[15%]">
         <img
           src={LightBlueGradient}
           alt="blue-patch"
@@ -49,10 +49,10 @@ const Community = () => {
       </div>
       <img
         src={CommunityPokemon}
-        className="w-[90%] lg:w-1/2 lg:h-3/4 relative mt-[15%] sm:mt-10 sm:w-3/4 lg:-mt-[5%] mx-auto object-contain"
+        className="w-[90%] lg:w-1/2 lg:h-3/4 relative mt-[15%] sm:mt-10 sm:w-3/4 lg:-mt-[10%] xl:-mt-[5%] mx-auto object-contain"
         alt="bg"
       />
-      <div className="relative w-3/4 h-10 mx-auto mt-10 lg:absolute z-20 lg:bottom-[15%] lg:left-[25%] lg:w-[50%] lg:h-16">
+      <div className="relative w-3/4 h-10 mx-auto mt-10 lg:absolute z-20 lg:bottom-[15%] lg:left-[12.5%] xl:left-[25%] lg:w-3/4 xl:w-[50%] lg:h-16">
         <img
           src={DeepBlueGradient}
           alt="blue-patch"

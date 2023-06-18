@@ -9,7 +9,7 @@ import "../css/earn-platform.css";
 
 const EarnPlatform = () => {
   return (
-    <div className="w-full lg:h-screen xl:h-[75vh] h-auto relative overflow-hidden">
+    <div className="w-full lg:h-screen 2xl:h-[75vh] h-auto relative overflow-hidden">
       <img
         src={Background}
         className="platformBG hidden lg:flex"
@@ -61,7 +61,7 @@ const EarnPlatform = () => {
             Spend Plasma to mint Genesis NFTs, characters needed to play Super
             Galactic.
           </p>
-          <div className="w-full flex items-center justify-center pt-2 2xl:pt-14">
+          <div className="w-full flex items-center justify-center pt-2 xl:pt-7 2xl:pt-14">
             <button className="bg-gradient-to-r px-6 py-3 rounded-xl from-[#14B75F] from-0% to-[#6CDA8B] to-100% text-white text-xl font-bold">
               START EARNING
             </button>

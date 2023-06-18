@@ -9,14 +9,14 @@ import WhitePokemon from "../assets/images/white-pokemon.png";
 
 const Collections = () => {
   return (
-    <div className="roadmapContainer">
+    <div className="w-full lg:h-screen h-auto relative overflow-hidden">
       <img
         src={CollectionBG}
         className="roadmapBG"
         alt="bg"
       />
-      <div className="relative mt-10 inline-block ml-[25%] text-center w-1/2">
-        <p className="text-3xl font-bold text-deepBlue">
+      <div className="relative mt-10 inline-block px-5 lg:ml-[12.5%] xl:ml-[25%] text-center lg:w-3/4 xl:w-1/2">
+        <p className="text-xl lg:text-3xl font-bold text-deepBlue">
           Making deposits and inviting referrals you can collect an entire NFT
           collection
         </p>
@@ -25,32 +25,32 @@ const Collections = () => {
       <div className="relative mt-10 inline-block text-center h-[90%] w-full">
         <img
           src={BlackPokemon}
-          className="absolute scale-50 top-1/4"
+          className="relative lg:absolute scale-50 sm:left-1/4 lg:left-0 xl:top-1/4"
           alt="black-pokemon"
         />
         <img
           src={BluePokemon}
-          className="absolute scale-50 left-1/4 top-1/4"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-1/4 lg:top-[10%] xl:top-1/4"
           alt="black-pokemon"
         />
         <img
           src={YellowPokemon}
-          className="absolute scale-50 left-1/4 bottom-0"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:top-1/3 lg:left-1/4 lg:bottom-0"
           alt="black-pokemon"
         />
         <img
           src={GreyPokemon}
-          className="absolute scale-50 left-1/2 top-1/4"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-1/2 lg:top-[15%] xl:top-1/4"
           alt="black-pokemon"
         />
         <img
           src={RedPokemon}
-          className="absolute scale-50 left-3/4 top-1/4"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-[73%] xl:left-3/4 lg:top-[5%] xl:top-1/4"
           alt="black-pokemon"
         />
         <img
           src={WhitePokemon}
-          className="absolute scale-50 right-0 bottom-0"
+          className="relative lg:absolute scale-50 lg:left-[35%] xl:right-0 lg:bottom-0"
           alt="black-pokemon"
         />
       </div>

@@ -14,39 +14,39 @@ import Divide from "../assets/images/divide.png";
 
 const Reason = () => {
   return (
-    <div className="reasonContainer">
+    <div className="w-full lg:h-screen h-auto relative overflow-hidden">
       <img
         src={ForestBG}
         className="reasonBG"
         alt="bg"
       />
-      <div className="relative inline-block w-[30%] ml-[35%] mt-12">
+      <div className="relative inline-block w-[60%] ml-[20%] sm:w-1/2 sm:ml-[25%] lg:w-1/2 xl:w-[30%] xl:ml-[35%] mt-12">
         <img
           src={LightBluePatch}
           alt="blue-patch"
           className="h-full"
         />
         <div className="absolute top-[20%] inset-0">
-          <p className="z-20 text-center text-white lg:text-5xl font-extrabold">
+          <p className="z-20 text-center text-white sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold">
             Why Pokeballs?
           </p>
         </div>
       </div>
-      <div className="relative inline-block w-[50%] mt-5 ml-[25%]">
+      <div className="relative inline-block w-[90%] h-32 ml-[5%] lg:w-3/4 xl:w-[50%] sm:mt-10 lg:mt-5 lg:ml-[12.5%] xl:ml-[25%]">
         <img
           src={WhitePatch}
           alt="white-patch"
-          className="h-auto"
+          className="w-full h-full lg:h-auto"
         />
-        <div className="absolute px-3 top-1/4 inset-0">
-          <p className="z-20 text-center lg:text-xl font-semibold">
+        <div className="absolute w-full px-3 top-1/4 lg:top-3 inset-0">
+          <p className="z-20 text-center text-sm sm:text-lg lg:text-xl font-semibold">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eos
             error rerum a ut commodi! Blanditiis quo ipsam consequatur fugiat.
           </p>
         </div>
       </div>
 
-      <div className="relative inline-block w-[20%] mt-5 ml-[40%]">
+      <div className="relative lg:inline-block hidden lg:w-[20%] mt-5 ml-[40%]">
         <img
           src={Phone}
           alt="phone"
@@ -54,52 +54,52 @@ const Reason = () => {
         />
       </div>
 
-      <div className="absolute inline-block w-[25%] left-0 p-10">
+      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/3 xl:w-[25%] lg:-left-[20%] xl:left-0 p-10">
         <img
           src={PurplePatchPlus}
           alt="white-patch"
-          className="h-auto scale-75"
+          className="h-auto scale-100"
         />
-        <div className="absolute pt-20 px-16 inset-0">
+        <div className="absolute w-full pt-10 px-10 sm:px-20 sm:pt-16 lg:pt-10 xl:pt-20 lg:px-10 xl:px-16 inset-0">
           <img
             src={Photo}
-            className="scale-50 m-auto"
+            className="scale-[0.40] lg:scale-50 m-auto"
             alt=""
           />
-          <p className="z-20 text-center lg:text-lg font-semibold">
+          <p className="z-20 text-center text-lg font-semibold">
             Get NFT by accomplishing achievements
           </p>
         </div>
       </div>
 
-      <div className="absolute inline-block w-[25%] left-20 bottom-0 p-10">
+      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/3 lg:bottom-0 lg:-left-32 xl:left-0 p-10">
         <img
           src={OrangePatchPlus}
           alt="white-patch"
-          className="h-auto scale-75"
+          className="h-auto scale-100 lg::scale-75"
         />
-        <div className="absolute pt-20 px-16 inset-0">
+        <div className="absolute w-full pt-10 px-10 sm:px-20 sm:pt-16 lg:pt-14 lg:px-12 xl:pt-20 xl:px-16 inset-0">
           <img
             src={Person}
-            className="scale-50 m-auto"
+            className="scale-[0.40] lg:scale-[0.4] xl:scale-50 m-auto"
             alt=""
           />
-          <p className="z-20 text-center lg:text-lg font-semibold">
+          <p className="z-20 text-center text-lg font-semibold">
             Get NFT by accomplishing achievements
           </p>
         </div>
       </div>
 
-      <div className="absolute inline-block w-[25%] left-2/3 top-1/3 p-10">
+      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/2 xl:w-[25%] lg:-right-10 lg:top-1/3 p-10">
         <img
           src={BluePatchPlus}
           alt="white-patch"
-          className="h-auto scale-75"
+          className="h-auto scale-100 lg:scale-75"
         />
-        <div className="absolute pt-14 px-16 inset-0">
+        <div className="absolute w-full pt-10 px-10 sm:px-20 sm:pt-16 lg:pt-16 xl:pt-20 xl:px-16 inset-0">
           <img
             src={Eth}
-            className="scale-50 m-auto"
+            className="scale-[0.40] lg:scale-50 m-auto"
             alt=""
           />
           <p className="z-20 text-center lg:text-lg font-semibold">
@@ -108,16 +108,16 @@ const Reason = () => {
         </div>
       </div>
 
-      <div className="absolute inline-block w-[25%] left-3/4 top-[60%] p-10">
+      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/2 xl:w-[25%] lg:-right-10 lg:-bottom-10 p-10">
         <img
           src={GreenPatchPlus}
           alt="white-patch"
-          className="h-auto scale-75"
+          className="h-auto scale-100 lg:scale-75"
         />
-        <div className="absolute pt-14 px-16 inset-0">
+        <div className="absolute w-full pt-10 px-10 sm:px-20 sm:pt-16 lg:pt-20 xl:px-16 inset-0">
           <img
             src={Divide}
-            className="scale-50 m-auto"
+            className="scale-[0.40] lg:scale-[0.40] xl:scale-50 m-auto"
             alt=""
           />
           <p className="z-20 text-center lg:text-lg font-semibold">

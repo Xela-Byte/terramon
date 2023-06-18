@@ -25,12 +25,12 @@ const Collections = () => {
       <div className="relative mt-10 inline-block text-center h-[90%] w-full">
         <img
           src={BlackPokemon}
-          className="relative lg:absolute scale-50 sm:left-1/4 lg:left-0 xl:top-1/4"
+          className="relative lg:absolute scale-50 sm:left-1/4 lg:left-0 xl:top-1/4 2xl:top-0"
           alt="black-pokemon"
         />
         <img
           src={BluePokemon}
-          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-1/4 lg:top-[10%] xl:top-1/4"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-1/4 lg:top-[10%] xl:top-1/4 2xl:top-0"
           alt="black-pokemon"
         />
         <img
@@ -40,12 +40,12 @@ const Collections = () => {
         />
         <img
           src={GreyPokemon}
-          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-1/2 lg:top-[15%] xl:top-1/4"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-1/2 lg:top-[15%] xl:top-1/4 2xl:top-0"
           alt="black-pokemon"
         />
         <img
           src={RedPokemon}
-          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-[73%] xl:left-3/4 lg:top-[5%] xl:top-1/4"
+          className="relative lg:absolute scale-50 sm:left-[20%] lg:left-[73%] xl:left-3/4 lg:top-[5%] xl:top-1/4 2xl:top-0"
           alt="black-pokemon"
         />
         <img

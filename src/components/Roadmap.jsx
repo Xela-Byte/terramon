@@ -16,20 +16,20 @@ const Roadmap = () => {
         className="roadmapBG"
         alt="bg"
       />
-      <div className="relative lg:ml-[35%] 2xl:ml-[42.5%] ml-[25%] mt-5 lg:mt-10 inline-block w-1/2 h-10 lg:w-[30%] 2xl:w-[15%]">
+      <div className="relative lg:ml-[35%] ml-[25%] mt-5 lg:mt-10 inline-block w-1/2 h-10 lg:w-[30%]">
         <img
           src={LightBlueGradient}
           alt="blue-patch"
           className="w-full h-full lg:h-auto"
         />
-        <div className="absolute top-1 xl:top-3 inset-0">
+        <div className="absolute top-1 xl:top-3 2xl:top-5 inset-0">
           <p className="z-20 text-center text-white text-2xl lg:text-4xl xl:text-5xl font-bold">
             Roadmap
           </p>
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block w-full h-full md:w-[45%] xl:w-[35%] 2xl:w-[25%] lg:left-[15%] xl:left-[30%] lg:top-24 p-10">
+      <div className="relative lg:absolute inline-block w-full h-full md:w-[45%] xl:w-[35%] 2xl:w-[25%] lg:left-[15%] xl:left-[15%] 2xl:left-[30%] lg:top-24 p-10">
         <img
           src={BlueGradient}
           alt="white-patch"
@@ -48,7 +48,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block lg:w-[45%] xl:w-[25%] lg:left-[55%] lg:top-1/4 p-10">
+      <div className="relative lg:absolute inline-block lg:w-[45%] xl:w-[25%] 2xl:w-1/3 lg:left-[55%] lg:top-1/4 p-10">
         <img
           src={OrangeGradient}
           alt="white-patch"
@@ -66,7 +66,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block lg:w-[35%] xl:w-[25%] lg:left-0 lg:top-[45%] xl:top-1/3 p-10">
+      <div className="relative lg:absolute inline-block lg:w-[35%] 2xl:w-[25%] lg:left-0 lg:top-[45%] xl:top-1/3 p-10">
         <img
           src={GreenGradient}
           alt="white-patch"
@@ -82,7 +82,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block lg:w-[40%] lg:left-1/2 xl:w-[25%] xl:left-[15%] lg:top-[55%] xl:top-[55%] p-10">
+      <div className="relative lg:absolute inline-block lg:w-[40%] lg:left-1/2 2xl:w-[30%] xl:left-[15%] lg:top-[55%] xl:top-[55%] 2xl:top-[60%] p-10">
         <img
           src={PurpleGradient}
           alt="white-patch"
@@ -98,7 +98,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block lg:w-1/3 xl:w-[20%] lg:left-[40%] lg:top-[77%] xl:top-3/4 p-10">
+      <div className="relative lg:absolute inline-block lg:w-1/3 2xl:w-[20%] lg:left-[40%] 2xl:left-[45%] lg:top-[77%] xl:top-3/4 p-10">
         <img
           src={RedGradient}
           alt="white-patch"
@@ -110,7 +110,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block sm:w-2/3 lg:w-[35%] xl:w-[20%] lg:left-[10%] xl:left-[23%] lg:-bottom-5 xl:bottom-0 p-7">
+      <div className="relative lg:absolute inline-block sm:w-2/3 lg:w-[35%] 2xl:w-[27%] lg:left-[10%] 2xl:left-[23%] lg:-bottom-5 2xl:-bottom-6 p-7">
         <img
           src={IndigoGradient}
           alt="white-patch"

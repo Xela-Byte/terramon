@@ -9,7 +9,7 @@ import "../css/earn-platform.css";
 
 const EarnPlatform = () => {
   return (
-    <div className="w-full lg:h-screen 2xl:h-[75vh] h-auto relative overflow-hidden">
+    <div className="w-full lg:h-screen h-auto relative overflow-hidden">
       <img
         src={Background}
         className="platformBG hidden lg:flex"

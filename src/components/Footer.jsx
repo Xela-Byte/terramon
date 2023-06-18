@@ -28,7 +28,7 @@ const Footer = () => {
             <p>Copyright © 2023. All rights reserved</p>
           </div>
         </div>
-        <div className="w-full p-5 sm:w-[40%] xl:w-[15%] relative sm:mx-10 sm:mt-24 md:mt-10 flex justify-between sm:ml-auto">
+        <div className="w-full p-5 sm:w-[40%] 2xl:w-[15%] relative sm:mx-10 sm:mt-24 md:mt-10 flex justify-between sm:ml-auto">
           <div className="space-y-3">
             <p>Home</p>
             <p>About </p>

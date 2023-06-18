@@ -32,19 +32,19 @@ const FAQ = () => {
           alt="bg"
         />
         <div className="listContainer px-5 space-y-6 lg:space-y-10 lg:py-40">
-          <div className="w-full lg:w-[90%] xl:w-1/2 mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 lg:py-3 rounded-xl from-[#2843D2] from-0% to-[#6B7EDB] to-100% text-white text-lg lg:text-xl font-semibold">
+          <div className="w-full lg:w-[90%] mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 lg:py-3 rounded-xl from-[#2843D2] from-0% to-[#6B7EDB] to-100% text-white text-lg lg:text-xl font-semibold">
             How do I create an account?
           </div>
-          <div className="w-full lg:w-[90%] xl:w-1/2 mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#14B75F] from-0% to-[#6CDA8B] to-100% text-white text-lg lg:text-xl font-semibold">
+          <div className="w-full lg:w-[90%] mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#14B75F] from-0% to-[#6CDA8B] to-100% text-white text-lg lg:text-xl font-semibold">
             How to make a deposit?
           </div>
-          <div className="w-full lg:w-[90%] xl:w-1/2 mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#FF9A40] from-0% to-[#FFDE2E] to-100% text-white text-lg lg:text-xl font-semibold">
+          <div className="w-full lg:w-[90%] mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#FF9A40] from-0% to-[#FFDE2E] to-100% text-white text-lg lg:text-xl font-semibold">
             How do I increase my income?
           </div>
-          <div className="w-full lg:w-[90%] xl:w-1/2 mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#FF3434] from-0% to-[#FF2199] to-100% text-white text-lg lg:text-xl font-semibold">
+          <div className="w-full lg:w-[90%] mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#FF3434] from-0% to-[#FF2199] to-100% text-white text-lg lg:text-xl font-semibold">
             How to invite friends?
           </div>
-          <div className="w-full lg:w-[90%] xl:w-1/2 mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#A70EB2] from-0% to-[#FF60E6] to-100% text-white text-lg lg:text-xl font-semibold">
+          <div className="w-full lg:w-[90%] mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 rounded-xl from-[#A70EB2] from-0% to-[#FF60E6] to-100% text-white text-lg lg:text-xl font-semibold">
             How to get NFT?
           </div>
         </div>

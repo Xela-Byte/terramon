@@ -10,7 +10,7 @@ import WhitePatch1 from "../assets/images/white-patch-1.png";
 const Projects = () => {
   return (
     <div
-      className="w-full h-auto overflow-visible lg:h-[250vh] xl:h-[200vh]"
+      className="w-full h-auto overflow-visible lg:h-[250vh]"
       style={{
         backgroundImage: `url(${Volcano})`,
         backgroundSize: "cover",
@@ -31,10 +31,10 @@ const Projects = () => {
       <div className="w-full h-fit flex flex-col lg:flex-row relative">
         <img
           src={PixelatedPokemon}
-          className="scale-50 relative lg:absolute lg:left-0 xl:left-1/4"
+          className="scale-50 relative lg:absolute lg:left-0 2xl:left-20"
           alt=""
         />
-        <div className="relative lg:absolute inline-block w-full lg:w-1/2 xl:w-[30%] lg:left-[45%] xl:left-1/2 lg:top-12 xl:top-20 p-10">
+        <div className="relative lg:absolute inline-block w-full lg:w-1/2 2xl:w-[40%] lg:left-[45%] 2xl:left-1/2 lg:top-12 p-10">
           <img
             src={WhitePatch1}
             alt="white-patch"
@@ -44,7 +44,7 @@ const Projects = () => {
             <p className="text-pink text-xl lg:text-2xl font-bold mb-3">
               Pika Token
             </p>
-            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem]">
+            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem] 2xl:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -59,10 +59,10 @@ const Projects = () => {
       <div className="w-full mt-[20%] flex flex-col lg:flex-row relative">
         <img
           src={Pokeball}
-          className="scale-50 relative lg:absolute lg:top-40 lg:left-1/2"
+          className="scale-50 relative lg:absolute lg:top-40 2xl:top-20 lg:left-1/2"
           alt=""
         />
-        <div className="relative lg:absolute inline-block w-full lg:w-1/2 xl:w-[30%] lg:left-[5%] xl:left-1/2 lg:top-52 xl:top-20 p-10">
+        <div className="relative lg:absolute inline-block w-full lg:w-1/2 2xl:w-[40%] lg:left-[5%] lg:top-52 2xl:top-36 p-10">
           <img
             src={WhitePatch1}
             alt="white-patch"
@@ -72,7 +72,7 @@ const Projects = () => {
             <p className="text-pink text-xl lg:text-2xl font-bold mb-3">
               Pika Token
             </p>
-            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem]">
+            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem] 2xl:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -84,13 +84,13 @@ const Projects = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="w-full mt-[20%] lg:mt-[55%] xl:mt-1/2 flex flex-col lg:flex-row relative">
+      <div className="w-full mt-[20%] lg:mt-[55%] 2xl:mt-[30%] xl:mt-1/2 flex flex-col lg:flex-row relative">
         <img
           src={PokemonGirl}
-          className="scale-50 relative lg:absolute -mt-12 lg:-top-12 xl:left-1/4"
+          className="scale-50 relative lg:absolute -mt-12 lg:-top-12 xl:left-[10%]"
           alt=""
         />
-        <div className="relative lg:absolute inline-block w-full lg:w-1/2 xl:w-[30%] lg:left-1/2 lg:top-20 p-10">
+        <div className="relative lg:absolute inline-block w-full lg:w-1/2 2xl:w-[40%] lg:left-1/2 lg:top-20 p-10">
           <img
             src={WhitePatch1}
             alt="white-patch"
@@ -100,7 +100,7 @@ const Projects = () => {
             <p className="text-pink text-xl lg:text-2xl font-bold mb-3">
               Pika Token
             </p>
-            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem]">
+            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem] 2xl:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -112,23 +112,23 @@ const Projects = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="w-full mt-[20%] flex flex-col lg:flex-row relative">
+      <div className="w-full mt-[20%] 2xl:mt-[15%] flex flex-col lg:flex-row relative">
         <img
           src={Phone}
-          className="scale-75 lg:scale-50 relative lg:absolute lg:top-40 xl:top-10 lg:left-1/2"
+          className="scale-75 lg:scale-50 relative lg:absolute lg:top-40 lg:left-1/2"
           alt=""
         />
-        <div className="relative lg:absolute inline-block w-full lg:w-1/2 xl:w-[30%] xl:left-1/2 lg:top-60 xl:top-20 p-10">
+        <div className="relative lg:absolute inline-block w-full lg:w-1/2 2xl:w-[40%] lg:top-60 p-10">
           <img
             src={WhitePatch1}
             alt="white-patch"
-            className="w-full h-[45vh] xl:h-auto"
+            className="w-full h-[45vh]"
           />
           <div className="absolute px-16 inset-0 flex flex-col justify-center text-center">
             <p className="text-pink text-xl lg:text-2xl font-bold mb-3">
               Pika Token
             </p>
-            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem]">
+            <p className="text-[3.5vw] sm:text-lg lg:text-[0.9rem] 2xl:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

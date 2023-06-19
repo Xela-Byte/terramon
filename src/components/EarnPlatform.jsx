@@ -15,14 +15,14 @@ const EarnPlatform = () => {
         className="platformBG hidden lg:flex"
         alt="bg"
       />
-      <div className="relative w-[100%] h-auto lg:w-1/2 lg:absolute">
+      <div className="relative w-[100%] h-auto 2xl:h-screen lg:w-1/2 lg:absolute">
         <img
           src={BackgroundWhite}
           className="platformWhiteBG w-full"
           alt="bg"
         />
 
-        <div className="listContainer w-full px-2  py-10 2xl:p-10">
+        <div className="listContainer w-full px-2 py-10 2xl:p-10">
           <div className="listContent w-[100%] mb-3 lg:w-52 lg:mb-1 lg:h-20">
             <img
               src={PurplePatch}
@@ -31,7 +31,7 @@ const EarnPlatform = () => {
             />
             <p className="text-white text-4xl font-extrabold listText">Stake</p>
           </div>
-          <p className="px-12 mb-5 lg:mb-3 text-xl font-medium">
+          <p className="px-12 mb-5 lg:mb-3 text-xl font-medium 2xl:mb-[7%]">
             Stake Pokeballs Tokens or Pokeballs-ETH LP to earn Plasma Points.
             Plasma points will not be tradable. With Plasma Points you can mint
             rare NFTs called Origin Pokeballeps. There will only be a LIMITED
@@ -45,7 +45,7 @@ const EarnPlatform = () => {
             />
             <p className="text-white text-4xl font-extrabold listText">Earn</p>
           </div>
-          <p className="px-12 mb-5 lg:mb-3 text-xl font-medium">
+          <p className="px-12 mb-5 lg:mb-3 text-xl font-medium 2xl:mb-[7%]">
             Whoever has the biggest stake gets the most Plasma for each block.
             Lock your stake for longer and it will count as a bigger share.
           </p>{" "}
@@ -57,7 +57,7 @@ const EarnPlatform = () => {
             />
             <p className="text-white text-4xl font-extrabold listText">Stake</p>
           </div>
-          <p className="px-12 mb-5 lg:mb-3 text-xl font-medium">
+          <p className="px-12 mb-5 lg:mb-3 text-xl font-medium 2xl:mb-[7%]">
             Spend Plasma to mint Genesis NFTs, characters needed to play Super
             Galactic.
           </p>
@@ -70,7 +70,7 @@ const EarnPlatform = () => {
       </div>
       <img
         src={Pokemon}
-        className="absolute scale-50 object-cover left-[65%] lg:left-[45%] lg:top-1/3 top-1/4 hidden lg:right-10 lg:flex"
+        className="absolute scale-50 object-cover left-[65%] lg:left-[45%] lg:top-1/3 top-1/4 hidden lg:right-10 lg:flex 2xl:top-[45%] 2xl:left-2/3"
         alt="pokemon"
       />
     </div>

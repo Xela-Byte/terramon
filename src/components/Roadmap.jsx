@@ -16,24 +16,24 @@ const Roadmap = () => {
         className="roadmapBG"
         alt="bg"
       />
-      <div className="relative lg:ml-[35%] ml-[25%] mt-5 lg:mt-10 inline-block w-1/2 h-10 lg:w-[30%]">
+      <div className="relative lg:ml-[35%] 2xl:ml-[40%] ml-[25%] mt-5 lg:mt-10 inline-block w-1/2 h-10 lg:w-[30%] 2xl:w-[20%]">
         <img
           src={LightBlueGradient}
           alt="blue-patch"
           className="w-full h-full lg:h-auto"
         />
-        <div className="absolute top-1 xl:top-3 2xl:top-5 inset-0">
+        <div className="absolute top-1 xl:top-3 2xl:top-3 inset-0">
           <p className="z-20 text-center text-white text-2xl lg:text-4xl xl:text-5xl font-bold">
             Roadmap
           </p>
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block w-full h-full md:w-[45%] xl:w-[35%] 2xl:w-[25%] lg:left-[15%] xl:left-[15%] 2xl:left-[30%] lg:top-24 p-10">
+      <div className="relative lg:absolute inline-block w-full h-full md:w-[45%] xl:w-[35%] 2xl:w-[25%] lg:left-[15%] xl:left-[15%] 2xl:left-[30%] lg:top-24 2xl:top-32 p-10">
         <img
           src={BlueGradient}
           alt="white-patch"
-          className="w-full h-[25vh]"
+          className="w-full h-[25vh] 2xl:h-[23vh]"
         />
         <div className="absolute space-y-1 pt-14 pl-16 lg:pl-20 px-4 lg:px-16 inset-0">
           <p className="z-20 text-white mb-2 lg:text-3xl font-extrabold">
@@ -48,13 +48,13 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block lg:w-[45%] xl:w-[25%] 2xl:w-1/3 lg:left-[55%] lg:top-1/4 p-10">
+      <div className="relative lg:absolute inline-block lg:w-[45%] xl:w-[25%] 2xl:w-1/4 lg:left-[55%] 2xl:left-2/3 lg:top-1/4 p-10">
         <img
           src={OrangeGradient}
           alt="white-patch"
           className="w-full h-[35vh] sm:h-[30vh] lg:h-[27vh]"
         />
-        <div className="absolute space-y-1 pt-12 pl-16 lg:pl-20 px-16 inset-0">
+        <div className="absolute space-y-1 pt-12 2xl:pt-16 pl-16 lg:pl-20 px-16 inset-0">
           <p className="z-20 text-white lg:text-3xl font-extrabold">Q3 2023</p>
           <ul className="space-y-1">
             <li> Release unique NFT Collection</li>
@@ -70,7 +70,7 @@ const Roadmap = () => {
         <img
           src={GreenGradient}
           alt="white-patch"
-          className="w-full h-[25vh] lg:h-[27vh]"
+          className="w-full h-[25vh] lg:h-[27vh] 2xl:h-[22vh]"
         />
         <div className="absolute space-y-1 pt-12  sm:pt-16 pl-20 px-16 inset-0">
           <p className="z-20 text-white lg:text-3xl font-extrabold">Q4 2023</p>
@@ -88,7 +88,7 @@ const Roadmap = () => {
           alt="white-patch"
           className="w-full h-[25vh] lg:h-[23vh]"
         />
-        <div className="absolute space-y-1 pt-12 sm:pt-16 pl-20 px-16 inset-0">
+        <div className="absolute space-y-1 pt-12 sm:pt-16 2xl:p-20 pl-20 px-16 inset-0">
           <p className="z-20 text-white lg:text-3xl font-extrabold">Q1 2024</p>
           <ul className="space-y-1 pt-2">
             <li> Mobile app release</li>
@@ -110,7 +110,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block sm:w-2/3 lg:w-[35%] 2xl:w-[27%] lg:left-[10%] 2xl:left-[23%] lg:-bottom-5 2xl:-bottom-6 p-7">
+      <div className="relative lg:absolute inline-block sm:w-2/3 lg:w-[35%] 2xl:w-[23%] lg:left-[10%] 2xl:left-[23%] lg:-bottom-5 2xl:-bottom-6 p-7">
         <img
           src={IndigoGradient}
           alt="white-patch"

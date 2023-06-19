@@ -15,11 +15,11 @@ const Community = () => {
         className="roadmapBG"
         alt="bg"
       />
-      <div className="relative w-[30%] ml-[35%] lg:ml-[35%] mt-10 inline-block lg:w-[30%]">
+      <div className="relative w-[30%] ml-[35%] lg:ml-[35%] mt-10 inline-block lg:w-[30%] 2xl:w-[20%">
         <img
           src={LightBlueGradient}
           alt="blue-patch"
-          className="w-full h-auto"
+          className="w-full h-auto 2xl:h-16"
         />
         <div className="absolute top-1 xl:top-3 inset-0">
           <p className="z-20 text-center text-white lg:text-4xl font-bold">

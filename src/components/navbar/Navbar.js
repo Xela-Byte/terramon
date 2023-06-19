@@ -3,7 +3,7 @@ import BluePatch from "../../assets/images/blue-patch.png";
 const Navbar = () => {
   return (
     <div className="w-full h-[10vh] lg:flex px-5 py-6 lg:px-10 lg:py-6 items-center">
-      <div class="relative inline-block w-1/2 sm:w-1/4 lg:w-[20%]">
+      <div class="relative inline-block w-1/2 sm:w-1/4 lg:w-[20%] 2xl:w-[12%]">
         <img
           src={BluePatch}
           alt="blue-patch"

@@ -16,13 +16,13 @@ const Projects = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}>
-      <div className="relative ml-[35%] lg:ml-[25%] mt-10 inline-block w-[30%] lg:w-1/2">
+      <div className="relative ml-[35%] lg:ml-[25%] 2xl:ml-[37.5%] mt-10 inline-block w-[30%] lg:w-1/2 2xl:w-1/4">
         <img
           src={ProjectBlueGradient}
           alt="blue-patch"
-          className="w-full h-14"
+          className="w-full h-14 2xl:h-auto"
         />
-        <div className="absolute top-2 inset-0">
+        <div className="absolute top-2 2xl:top-3 inset-0">
           <p className="z-20 text-center text-white lg:text-4xl font-bold">
             Future Projects
           </p>

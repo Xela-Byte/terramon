@@ -20,7 +20,7 @@ const Reason = () => {
         className="reasonBG"
         alt="bg"
       />
-      <div className="relative inline-block w-[60%] ml-[20%] sm:w-1/2 sm:ml-[25%] lg:w-1/2 2xl:w-[40%] 2xl:ml-[30%] mt-12">
+      <div className="relative inline-block w-[60%] ml-[20%] sm:w-1/2 sm:ml-[25%] lg:w-1/2 2xl:w-[30%] 2xl:ml-[35%] mt-12">
         <img
           src={LightBluePatch}
           alt="blue-patch"
@@ -32,7 +32,7 @@ const Reason = () => {
           </p>
         </div>
       </div>
-      <div className="relative inline-block w-[90%] h-32 ml-[5%] lg:w-3/4 sm:mt-10 lg:mt-5 lg:ml-[12.5%]">
+      <div className="relative inline-block w-[90%] h-32 ml-[5%] lg:w-3/4 2xl:w-[65%] sm:mt-10 lg:mt-5 lg:ml-[12.5%] 2xl:ml-[20%]">
         <img
           src={WhitePatch}
           alt="white-patch"
@@ -76,9 +76,9 @@ const Reason = () => {
         <img
           src={OrangePatchPlus}
           alt="white-patch"
-          className="h-auto scale-100 lg::scale-75"
+          className="h-auto scale-100 lg:scale-75"
         />
-        <div className="absolute w-full pt-10 px-10 sm:px-20 sm:pt-16 lg:pt-14 lg:px-12 xl:pt-20 2xl:pt-12 xl:px-16 inset-0">
+        <div className="absolute w-full pt-10 px-10 sm:px-20 sm:pt-16 lg:pt-14 lg:px-12 xl:pt-20 2xl:pt-20 xl:px-16 inset-0">
           <img
             src={Person}
             className="scale-[0.40] lg:scale-[0.4] xl:scale-50 m-auto"
@@ -90,7 +90,7 @@ const Reason = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/2 xl:w-1/2 2xl:w-[35%] lg:-right-10 lg:top-1/3 xl:top-[30%] p-10">
+      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/2 xl:w-1/2 2xl:w-[30%] lg:-right-10 lg:top-1/3 xl:top-[30%] p-10">
         <img
           src={BluePatchPlus}
           alt="white-patch"
@@ -108,7 +108,7 @@ const Reason = () => {
         </div>
       </div>
 
-      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/2 xl:w-[45%] 2xl:w-[40%] lg:-right-10 lg:-bottom-10 p-10">
+      <div className="relative lg:absolute inline-block w-full sm:w-2/3 sm:ml-[18%] lg:w-1/2 xl:w-[45%] 2xl:w-[30%] lg:-right-10 lg:-bottom-10 p-10">
         <img
           src={GreenPatchPlus}
           alt="white-patch"

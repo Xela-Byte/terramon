@@ -31,7 +31,7 @@ const FAQ = () => {
           className="platformWhiteBG hidden lg:flex"
           alt="bg"
         />
-        <div className="listContainer px-5 space-y-6 lg:space-y-10 lg:py-40">
+        <div className="listContainer px-5 space-y-6 lg:space-y-10 lg:py-40 2xl:space-y-[9%]">
           <div className="w-full lg:w-[90%] mx-auto bg-gradient-to-r px-4 lg:px-14 py-1 md:py-3 lg:py-3 rounded-xl from-[#2843D2] from-0% to-[#6B7EDB] to-100% text-white text-lg lg:text-xl font-semibold">
             How do I create an account?
           </div>
@@ -51,7 +51,7 @@ const FAQ = () => {
       </div>
       <img
         src={Pokemon}
-        className="absolute scale-50 top-36 bottom-0 -left-20"
+        className="absolute scale-50 top-36 2xl:top-56 bottom-0 -left-20"
         alt="pokemon"
       />
     </div>
